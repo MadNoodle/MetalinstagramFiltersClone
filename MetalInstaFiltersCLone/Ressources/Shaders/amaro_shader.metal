@@ -25,7 +25,7 @@ struct Uniforms {
     float T_saturation;
 };
 
-float3 BrightnessContrastSaturation(float3 color, float brt, float con, float sat)
+float3 brightnessContrastSaturation(float3 color, float brt, float con, float sat)
 {
     float3 black = float3(0.0, 0.0, 0.0);
     float3 middle = float3(0.5, 0.5, 0.5);
@@ -38,7 +38,7 @@ float3 BrightnessContrastSaturation(float3 color, float brt, float con, float sa
     return satColor;
 }
 
-float3 ovelayBlender(float3 Color, float3 filter)
+float3 overlayBlender(float3 Color, float3 filter)
 {
     float luminance = dot(filter, float3(0.2125, 0.7154, 0.0721));
 
@@ -57,13 +57,13 @@ fragment float4 fragment_main(VertexInput input [[stage_in]],
     float3 filter = u_Texture1.sample(sampler(coord::normalized, address::clamp_to_edge, filter::linear), input.texCoordinate).rgb;
 
     // Adjust the brightness/contrast/saturation
-    float3 bcs_result = BrightnessContrastSaturation(irgb, uniforms.T_bright, uniforms.T_contrast, uniforms.T_saturation);
+    float3 bcs_result = brightnessContrastSaturation(irgb, uniforms.T_bright, uniforms.T_contrast, uniforms.T_saturation);
 
     // Add blue
     float3 blue_result = float3(bcs_result.r, bcs_result.g * 1.03, bcs_result.b);
 
     // Add filter (overlay blending)
-    float3 after_filter = mix(blue_result, ovelayBlender(blue_result, filter), 0.6);
+    float3 after_filter = mix(blue_result, overlayBlender(blue_result, filter), 0.6);
 
     return float4(after_filter, 1.0);
 }
