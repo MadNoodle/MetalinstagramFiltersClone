@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		CEE5CC6C2B5E8FDC002AC853 /* MetalInstaFiltersCLoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5CC6B2B5E8FDC002AC853 /* MetalInstaFiltersCLoneApp.swift */; };
-		CEE5CC6E2B5E8FDC002AC853 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5CC6D2B5E8FDC002AC853 /* ContentView.swift */; };
+		CEE5CC6E2B5E8FDC002AC853 /* PhotoFxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5CC6D2B5E8FDC002AC853 /* PhotoFxView.swift */; };
 		CEE5CC702B5E8FDD002AC853 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE5CC6F2B5E8FDD002AC853 /* Assets.xcassets */; };
 		CEE5CC732B5E8FDD002AC853 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE5CC722B5E8FDD002AC853 /* Preview Assets.xcassets */; };
 		CEE5CC7D2B5E8FDD002AC853 /* MetalInstaFiltersCLoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5CC7C2B5E8FDD002AC853 /* MetalInstaFiltersCLoneTests.swift */; };
 		CEE5CC872B5E8FDD002AC853 /* MetalInstaFiltersCLoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5CC862B5E8FDD002AC853 /* MetalInstaFiltersCLoneUITests.swift */; };
 		CEE5CC892B5E8FDD002AC853 /* MetalInstaFiltersCLoneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5CC882B5E8FDD002AC853 /* MetalInstaFiltersCLoneUITestsLaunchTests.swift */; };
+		CEE5CC9C2B5E9243002AC853 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5CC9B2B5E9243002AC853 /* Filter.swift */; };
+		CEE5CC9E2B5E94E9002AC853 /* FilterSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5CC9D2B5E94E9002AC853 /* FilterSelector.swift */; };
+		CEE5CCA02B5E9583002AC853 /* FilterPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5CC9F2B5E9583002AC853 /* FilterPicker.swift */; };
+		CEE5CCA32B5E9EC4002AC853 /* fragment_shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = CEE5CCA22B5E9EC4002AC853 /* fragment_shader.metal */; };
+		CEE5CCA52B5E9F4B002AC853 /* vertex_shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = CEE5CCA42B5E9F4B002AC853 /* vertex_shader.metal */; };
+		CEE5CCA72B5E9FDC002AC853 /* amaro_shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = CEE5CCA62B5E9FDC002AC853 /* amaro_shader.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,7 @@
 /* Begin PBXFileReference section */
 		CEE5CC682B5E8FDC002AC853 /* MetalInstaFiltersCLone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalInstaFiltersCLone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE5CC6B2B5E8FDC002AC853 /* MetalInstaFiltersCLoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalInstaFiltersCLoneApp.swift; sourceTree = "<group>"; };
-		CEE5CC6D2B5E8FDC002AC853 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CEE5CC6D2B5E8FDC002AC853 /* PhotoFxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFxView.swift; sourceTree = "<group>"; };
 		CEE5CC6F2B5E8FDD002AC853 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEE5CC722B5E8FDD002AC853 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CEE5CC782B5E8FDD002AC853 /* MetalInstaFiltersCLoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetalInstaFiltersCLoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +50,12 @@
 		CEE5CC822B5E8FDD002AC853 /* MetalInstaFiltersCLoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetalInstaFiltersCLoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE5CC862B5E8FDD002AC853 /* MetalInstaFiltersCLoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalInstaFiltersCLoneUITests.swift; sourceTree = "<group>"; };
 		CEE5CC882B5E8FDD002AC853 /* MetalInstaFiltersCLoneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalInstaFiltersCLoneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CEE5CC9B2B5E9243002AC853 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		CEE5CC9D2B5E94E9002AC853 /* FilterSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterSelector.swift; sourceTree = "<group>"; };
+		CEE5CC9F2B5E9583002AC853 /* FilterPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterPicker.swift; sourceTree = "<group>"; };
+		CEE5CCA22B5E9EC4002AC853 /* fragment_shader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = fragment_shader.metal; sourceTree = "<group>"; };
+		CEE5CCA42B5E9F4B002AC853 /* vertex_shader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = vertex_shader.metal; sourceTree = "<group>"; };
+		CEE5CCA62B5E9FDC002AC853 /* amaro_shader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = amaro_shader.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +106,10 @@
 		CEE5CC6A2B5E8FDC002AC853 /* MetalInstaFiltersCLone */ = {
 			isa = PBXGroup;
 			children = (
-				CEE5CC6B2B5E8FDC002AC853 /* MetalInstaFiltersCLoneApp.swift */,
-				CEE5CC6D2B5E8FDC002AC853 /* ContentView.swift */,
-				CEE5CC6F2B5E8FDD002AC853 /* Assets.xcassets */,
+				CEE5CC952B5E9060002AC853 /* App */,
+				CEE5CC962B5E9064002AC853 /* Core */,
+				CEE5CC992B5E908A002AC853 /* Ressources */,
+				CEE5CC972B5E906B002AC853 /* Utils */,
 				CEE5CC712B5E8FDD002AC853 /* Preview Content */,
 			);
 			path = MetalInstaFiltersCLone;
@@ -125,6 +138,67 @@
 				CEE5CC882B5E8FDD002AC853 /* MetalInstaFiltersCLoneUITestsLaunchTests.swift */,
 			);
 			path = MetalInstaFiltersCLoneUITests;
+			sourceTree = "<group>";
+		};
+		CEE5CC952B5E9060002AC853 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CEE5CC6B2B5E8FDC002AC853 /* MetalInstaFiltersCLoneApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CEE5CC962B5E9064002AC853 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CEE5CC9A2B5E9234002AC853 /* Models */,
+				CEE5CC982B5E907A002AC853 /* Views */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		CEE5CC972B5E906B002AC853 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CEE5CC982B5E907A002AC853 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEE5CC6D2B5E8FDC002AC853 /* PhotoFxView.swift */,
+				CEE5CC9D2B5E94E9002AC853 /* FilterSelector.swift */,
+				CEE5CC9F2B5E9583002AC853 /* FilterPicker.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CEE5CC992B5E908A002AC853 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				CEE5CCA12B5E9E9C002AC853 /* Shaders */,
+				CEE5CC6F2B5E8FDD002AC853 /* Assets.xcassets */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		CEE5CC9A2B5E9234002AC853 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CEE5CC9B2B5E9243002AC853 /* Filter.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CEE5CCA12B5E9E9C002AC853 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				CEE5CCA22B5E9EC4002AC853 /* fragment_shader.metal */,
+				CEE5CCA42B5E9F4B002AC853 /* vertex_shader.metal */,
+				CEE5CCA62B5E9FDC002AC853 /* amaro_shader.metal */,
+			);
+			path = Shaders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +331,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEE5CC6E2B5E8FDC002AC853 /* ContentView.swift in Sources */,
+				CEE5CCA32B5E9EC4002AC853 /* fragment_shader.metal in Sources */,
+				CEE5CCA72B5E9FDC002AC853 /* amaro_shader.metal in Sources */,
+				CEE5CC9C2B5E9243002AC853 /* Filter.swift in Sources */,
+				CEE5CC6E2B5E8FDC002AC853 /* PhotoFxView.swift in Sources */,
+				CEE5CCA52B5E9F4B002AC853 /* vertex_shader.metal in Sources */,
+				CEE5CC9E2B5E94E9002AC853 /* FilterSelector.swift in Sources */,
+				CEE5CCA02B5E9583002AC853 /* FilterPicker.swift in Sources */,
 				CEE5CC6C2B5E8FDC002AC853 /* MetalInstaFiltersCLoneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
