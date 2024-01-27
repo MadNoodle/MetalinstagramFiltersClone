@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F0E46342-5A3F-4F22-B9EE-D4010BD6DFD3"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1C21D781-8327-4971-BA4D-B5FE7D1EBFA8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../FilterEngine/Sources/FilterEngine/Extensions/Image+Processing.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "applyFilter(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1C21D781-8327-4971-BA4D-B5FE7D1EBFA8 - caa7c03250ad8c9a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftUI.Image.applyFilter(FilterEngine.Filter) -&gt; some"
+                  moduleName = "MetalInstaFiltersClone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Desktop/Projects/FilterEngine/Sources/FilterEngine/Extensions/Image+Processing.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "1864">
+               </Location>
+               <Location
+                  uuid = "1C21D781-8327-4971-BA4D-B5FE7D1EBFA8 - caa7c03250ad8c9a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftUI.Image.applyFilter(FilterEngine.Filter) -&gt; some"
+                  moduleName = "MetalInstaFiltersClone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Desktop/Projects/FilterEngine/Sources/FilterEngine/Extensions/Image+Processing.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "1236">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

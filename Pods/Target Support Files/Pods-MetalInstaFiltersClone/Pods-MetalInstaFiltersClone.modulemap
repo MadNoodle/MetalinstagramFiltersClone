@@ -1,0 +1,6 @@
+framework module Pods_MetalInstaFiltersClone {
+  umbrella header "Pods-MetalInstaFiltersClone-umbrella.h"
+
+  export *
+  module * { export * }
+}
